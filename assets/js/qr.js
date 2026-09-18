@@ -1,0 +1,1 @@
+document.querySelectorAll('.qr').forEach((el)=>{const text=window.AR_QR_URL||el.dataset.qrValue||location.href;el.replaceChildren();if(window.QRCode){new QRCode(el,{text,width:120,height:120,colorDark:'#173c35',colorLight:'#fff9ef',correctLevel:QRCode.CorrectLevel.M});}else{el.textContent='QR unavailable';el.title=text;}});

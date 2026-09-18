@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "imageWidth": 1000,
+  "imageHeight": 1500,
+  "targetImage": "menu.jpg",
+  "dishes": [
+    {"id":"dish-1","type":"burger","name":"Smoky Yard Burger","nx":0.28,"ny":0.27,"radius":0.11,"scale":0.28},
+    {"id":"dish-2","type":"pizza","name":"Ember Pizza","nx":0.72,"ny":0.27,"radius":0.11,"scale":0.27},
+    {"id":"dish-3","type":"pasta","name":"Silk Road Pasta","nx":0.28,"ny":0.47,"radius":0.11,"scale":0.26},
+    {"id":"dish-4","type":"fried-chicken","name":"Crispy Chicken","nx":0.72,"ny":0.47,"radius":0.11,"scale":0.25},
+    {"id":"dish-5","type":"salad","name":"Greenroom Salad","nx":0.28,"ny":0.67,"radius":0.11,"scale":0.27},
+    {"id":"dish-6","type":"juice","name":"Sunset Juice","nx":0.72,"ny":0.67,"radius":0.11,"scale":0.25},
+    {"id":"dish-7","type":"wrap","name":"Charred Wrap","nx":0.28,"ny":0.87,"radius":0.11,"scale":0.25},
+    {"id":"dish-8","type":"coffee","name":"House Coffee","nx":0.72,"ny":0.87,"radius":0.11,"scale":0.25}
+  ]
+}
